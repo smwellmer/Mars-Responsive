@@ -1,5 +1,56 @@
 @media only screen and (min-width: 768px) {
+
+    section.dashboard .slick-list div.slick-track{
+        display: block;
+    }
+
+    section.dashboard .slick-list .slide {
+        opacity: 1;
+    }
+
 }
 
 @media only screen and (min-width: 1024px) {
+   
+    div.container header div.wrapper {
+        margin-left: 20px;
+    }
+
+    header div.wrapper div.article footer {
+        display: block;
+    }
+
+    div.container header div.wrapper {
+        width: 480px;
+        height: 200px;
+        text-align: left;
+    }
+
+    .header-nav-area .menu-icon {
+        display: none;   
+    }
+
+    header .header-nav-area #nav_container {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 20px;
+    }
+
+    header form {
+        display: block;
+    }
+
+    section.dashboard .slick-list .slick-track[index='2']{
+        display: block;
+    }
+
+    section.dashboard .slick-list div.slick-track{
+        display: flex;
+        padding: 20px;
+        width: 100%;
+    }
+
+    section.dashboard .slick-list .slide {
+        opacity: 1;
+    }
 }
